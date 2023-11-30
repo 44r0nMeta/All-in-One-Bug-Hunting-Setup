@@ -1,40 +1,45 @@
 # All-in-One-Bug-Hunting-Setup
-Hello Everyone, This is my first repository.
-Using this bash script you can setup your PC for bug hunting or even just after when you install your OS (Debian Linux) in most easiest way.
-You just have to run the script and Sit Back! 
-The script will do the rest of the work.
-And its not gonna happen but if it asks for password in between please give the password and don't get mad at me 😅.
 
-**<h3>The special thing about this script is that it will also install and setup go in your machine if it not installed.</h3>**
+Welcome to the All-in-One Bug Hunting Setup! This bash script streamlines the process of setting up your Debian Linux machine for bug hunting endeavors.
 
-# How to Setup
-It is very simple to setup and use this script. You just have to follow the following steps
-'''
+## Key Features
+
+**The standout feature of this script is its capability to install and set up Go on your machine if it's not already installed.**
+
+## How to Set Up
+
+Setting up and using this script is a breeze. Follow these straightforward steps:
+
+```bash
 1. sudo git clone https://github.com/x86trace/All-in-One-Bug-Hunting-Setup.git
 2. cd All-in-One-Bug-Hunting-Setup/
 3. chmod +x install.sh
 4. bash install.sh or ./install.sh
-5. **(The easiest one)** Then just enter password and sit back.
-'''
+5. **(The easiest one)** Enter your password and sit back.
+```
 
-Special tools This script contains are
-1.  [Sublist3r](https://github.com/aboul3la/Sublist3r.git) - For Subdomain Enumeration
-2.  [lazyrecon](https://github.com/nahamsec/lazyrecon.git) - It is for lazy one
-3.  [waybackurls](https://github.com/tomnomnom/waybackurls) - Fetch url from wayback machine
-4.  [sqlmap](https://github.com/sqlmapproject/sqlmap) - For database testing
-5.  [ffuf](https://github.com/ffuf/ffuf) - For web fuzzing
-6.  [nuclei](https://github.com/projectdiscovery/nuclei) - Send request according to templates
-7.  [amass](https://github.com/OWASP/Amass) - Mapping of attack surface
-8.  [dirsearch](https://github.com/maurosoria/dirsearch.git) - For Directory search
-9.  [wpscan](https://github.com/wpscanteam/wpscan.git) - For Wordpress testing
-10. [nmap](https://nmap.org/) - For network mapping
-11. [httprobe](https://github.com/tomnomnom/httprobe) - Probe list of https and https servers
-12. [httpx](https://github.com/projectdiscovery/httpx) - Allow running multiple http probe
-13. [gobuster](https://github.com/OJ/gobuster) - For content discovery
-14. [gau](https://github.com/lc/gau) - Get-All-URLS
-15. [assetfinder](https://github.com/tomnomnom/assetfinder) - Finds doamin and subdomains
-16. [dnscan](https://github.com/rbsec/dnscan.git) - For DNS scanning
-17. [SecList](https://github.com/danielmiessler/SecLists.git) - Huge means really huge file that contains lots of wordlists for different work
+## Included Tools
 
-Special Thanks and credits to [nahamsec](https://github.com/nahamsec) for this idea and a bit help XD
-Hope you will like this script. Use it well and if it is really helpful then do let me know. ;)
+This script equips your machine with a powerful set of bug hunting tools, including:
+
+1. [Sublist3r](https://github.com/aboul3la/Sublist3r.git) - Subdomain Enumeration
+2. [lazyrecon](https://github.com/nahamsec/lazyrecon.git) - A tool for the not-so-energetic hunter
+3. [waybackurls](https://github.com/tomnomnom/waybackurls) - Fetch URLs from the Wayback Machine
+4. [sqlmap](https://github.com/sqlmapproject/sqlmap) - Database testing tool
+5. [ffuf](https://github.com/ffuf/ffuf) - Web fuzzing tool
+6. [nuclei](https://github.com/projectdiscovery/nuclei) - Send requests based on templates
+7. [amass](https://github.com/OWASP/Amass) - Map attack surfaces
+8. [dirsearch](https://github.com/maurosoria/dirsearch.git) - Directory search tool
+9. [wpscan](https://github.com/wpscanteam/wpscan.git) - WordPress testing tool
+10. [nmap](https://nmap.org/) - Network mapping tool
+11. [httprobe](https://github.com/tomnomnom/httprobe) - Probe list of HTTP and HTTPS servers
+12. [httpx](https://github.com/projectdiscovery/httpx) - Run multiple HTTP probes
+13. [gobuster](https://github.com/OJ/gobuster) - Content discovery tool
+14. [gau](https://github.com/lc/gau) - Get-All-URLs tool
+15. [assetfinder](https://github.com/tomnomnom/assetfinder) - Find domains and subdomains
+16. [dnscan](https://github.com/rbsec/dnscan.git) - DNS scanning tool
+17. [SecList](https://github.com/danielmiessler/SecLists.git) - Extensive collection of wordlists for various purposes
+
+## Acknowledgments
+
+Special thanks and credits to [nahamsec](https://github.com/nahamsec) for the inspiration and a bit of assistance. XD If you find this script helpful, let me know! Enjoy bug hunting! 😉
